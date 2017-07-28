@@ -111,8 +111,8 @@ namespace Hotel.Framework.Utils
                     // Add code to add Registry in IE 11
                     String IEVersion = HelperCommon.GetIEVersion(driver, driver.FindElement(By.TagName("html")));
 
-                   // if (IEVersion.Equals("IE11"))
-                   //     HelperCommon.CheckIE11RegistryPresence();
+                  //  if (IEVersion.Equals("IE11"))
+                  //      HelperCommon.CheckIE11RegistryPresence();
 
                     iWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
 
