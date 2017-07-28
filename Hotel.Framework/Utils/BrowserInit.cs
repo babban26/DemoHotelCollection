@@ -101,11 +101,14 @@ namespace Hotel.Framework.Utils
                     screenHeight = HelperCommon.GetScreenHeight(driver);
 
                     screenWidth = HelperCommon.GetScreenWidth(driver);
+                    Console.WriteLine("#########"+screenHeight+ " " +screenWidth);
 
                     HelperCommon.SetWindowPosition(driver, 0, 0);
 
-                    HelperCommon.SetWindowSize(driver, screenWidth, screenHeight);
+                    //HelperCommon.SetWindowSize(driver, screenWidth, screenHeight); //Dimension d = new Dimension(1382,744); 
 
+                    HelperCommon.SetWindowSize(driver, 1382, 744);
+                 
                     String BrowserName = BrowserCollection.ie.ToString();
 
                     // Add code to add Registry in IE 11
@@ -115,7 +118,7 @@ namespace Hotel.Framework.Utils
                   //      HelperCommon.CheckIE11RegistryPresence();
 
                     iWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
-                    Console.WriteLine("IE wait##############"+iWait);
+ 
 
                 }
                 else if (Convert.ToBoolean(browser.SelectBrowser(BrowserCollection.phantom.ToString(), "BrowserSelection.xml")) == true)

@@ -63,12 +63,12 @@ namespace Hotel.Framework.Helper
         //This function will wait for the jQuery function execution
         public static Boolean IsJqueryActive(IWebDriver driver)
         {
-            Console.WriteLine("Driver######"+driver);
+          
             Boolean ajaxIsComplete = false;
             for (int i = 1; i <= 60; i++)
             {
                 ajaxIsComplete = (bool)(driver as IJavaScriptExecutor).ExecuteScript("return jQuery.active == 0");
-                Console.WriteLine("ajaxIsComplete######" + ajaxIsComplete);
+           
                 if (ajaxIsComplete)
                 {
                     break;

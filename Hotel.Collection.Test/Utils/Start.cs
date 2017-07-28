@@ -26,7 +26,7 @@ namespace Hotel.Collection.Test.Utils
 
             Navigate("https://www.thehotelcollection.co.uk/");
 
-            Thread.Sleep(6000);
+            Thread.Sleep(15000);
           //  HelperCommon.IsJqueryActive(browser.driver);
         }
 
