@@ -34,13 +34,6 @@ namespace Hotel.Collection.Test.Utils
             Close();
         }
 
-        [AfterScenario(Order = 1)]
-        [Scope(Tag = "hooksExample")]
-        public static void LogoutUser()
-        {
-            System.Console.WriteLine("Execute AfterScenario- LogoutUser");
-            // Logout the user
-        }
     }
 }
 
