@@ -104,11 +104,11 @@ namespace Hotel.Framework.Utils
                    
                     Console.WriteLine("#########"+screenHeight+ " " +screenWidth);
 
-                    HelperCommon.SetWindowPosition(driver, 0, 0);
+                    //HelperCommon.SetWindowPosition(driver, 0, 0);
 
                     //HelperCommon.SetWindowSize(driver, screenWidth, screenHeight); //Dimension d = new Dimension(1382,744); 
 
-                    HelperCommon.SetWindowSize(driver, 744, 1382);
+                   // HelperCommon.SetWindowSize(driver, 744, 1382);
 
                     driver.Manage().Window.Maximize();
 
