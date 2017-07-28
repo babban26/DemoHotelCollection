@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using TechTalk.SpecFlow;
 using Hotel.Framework.Utils;
 using Hotel.Framework.Helper;
+using System.Threading;
 
 namespace Hotel.Collection.Test.Utils
 {
@@ -25,7 +26,8 @@ namespace Hotel.Collection.Test.Utils
 
             Navigate("https://www.thehotelcollection.co.uk/");
 
-            HelperCommon.IsJqueryActive(browser.driver);
+            Thread.Sleep(6000);
+          //  HelperCommon.IsJqueryActive(browser.driver);
         }
 
         [AfterScenario]
