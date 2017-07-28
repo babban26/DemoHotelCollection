@@ -4,7 +4,7 @@
 <browsers>
   
   <firefox>false</firefox> 
-  <chrome>true</chrome> 
-  <ie>false</ie> 
+  <chrome>false</chrome> 
+  <ie>true</ie> 
 
 </browsers>
