@@ -1,0 +1,84 @@
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.dll.config
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.pdb
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Framework.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\Newtonsoft.Json.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\nunit.framework.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\TechTalk.SpecFlow.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.Support.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\log4net.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Framework.pdb
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\Newtonsoft.Json.xml
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\nunit.framework.xml
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.xml
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.Support.xml
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\bin\Debug\log4net.xml
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.csprojResolveAssemblyReference.cache
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.pdb
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.dll.config
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.pdb
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Framework.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Newtonsoft.Json.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\nunit.framework.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\TechTalk.SpecFlow.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.Support.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\log4net.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Framework.pdb
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Newtonsoft.Json.xml
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\nunit.framework.xml
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.xml
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.Support.xml
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\bin\Debug\log4net.xml
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.pdb
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.csprojResolveAssemblyReference.cache
+C:\Project\TheHotelCollection\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.csprojResolveAssemblyReference.cache
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.dll.config
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.pdb
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Framework.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\nunit.core.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\nunit.core.interfaces.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\nunit.framework.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\nunit.util.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\TechTalk.SpecFlow.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.Support.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\log4net.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Mono.Cecil.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\Hotel.Framework.pdb
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\nunit.framework.xml
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.xml
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\WebDriver.Support.xml
+C:\Project\TheHotelCollection\Hotel.Collection.Test\bin\Debug\log4net.xml
+C:\Project\TheHotelCollection\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.dll
+C:\Project\TheHotelCollection\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.pdb
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.dll.config
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\Hotel.Collection.Test.pdb
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\Hotel.Framework.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\nunit.core.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\nunit.core.interfaces.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\nunit.framework.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\nunit.util.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\TechTalk.SpecFlow.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\WebDriver.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\WebDriver.Support.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\log4net.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\Mono.Cecil.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\Hotel.Framework.pdb
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\nunit.framework.xml
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\WebDriver.xml
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\WebDriver.Support.xml
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\bin\Debug\log4net.xml
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.csprojResolveAssemblyReference.cache
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.dll
+C:\Project\ReposHotelBooking\Hotel.Collection.Test\obj\Debug\Hotel.Collection.Test.pdb

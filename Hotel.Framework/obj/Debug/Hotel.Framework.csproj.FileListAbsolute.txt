@@ -1,0 +1,39 @@
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Framework\bin\Debug\Hotel.Framework.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Framework\bin\Debug\Hotel.Framework.pdb
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Framework\obj\Debug\Hotel.Framework.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Framework\obj\Debug\Hotel.Framework.pdb
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Framework\bin\Debug\log4net.dll
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Framework\bin\Debug\log4net.xml
+D:\All Projects\HotelCollection Automation\HotelCollection\Hotel.Framework\obj\Debug\Hotel.Framework.csprojResolveAssemblyReference.cache
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Framework\bin\Debug\Hotel.Framework.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Framework\bin\Debug\Hotel.Framework.pdb
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Framework\bin\Debug\log4net.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Framework\bin\Debug\log4net.xml
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Framework\obj\Debug\Hotel.Framework.csprojResolveAssemblyReference.cache
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Framework\obj\Debug\Hotel.Framework.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Framework\obj\Debug\Hotel.Framework.pdb
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Framework\bin\Debug\nunit.framework.dll
+D:\All Projects\HotelCollection Automation\TheHotelCollection\Hotel.Framework\bin\Debug\nunit.framework.xml
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\Hotel.Framework.dll
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\Hotel.Framework.pdb
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\log4net.dll
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\nunit.core.dll
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\nunit.core.interfaces.dll
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\nunit.framework.dll
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\nunit.util.dll
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\Mono.Cecil.dll
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\log4net.xml
+C:\Project\TheHotelCollection\Hotel.Framework\bin\Debug\nunit.framework.xml
+C:\Project\TheHotelCollection\Hotel.Framework\obj\Debug\Hotel.Framework.dll
+C:\Project\TheHotelCollection\Hotel.Framework\obj\Debug\Hotel.Framework.pdb
+C:\Project\ReposHotelBooking\Hotel.Framework\bin\Debug\Hotel.Framework.dll
+C:\Project\ReposHotelBooking\Hotel.Framework\bin\Debug\Hotel.Framework.pdb
+C:\Project\ReposHotelBooking\Hotel.Framework\bin\Debug\log4net.dll
+C:\Project\ReposHotelBooking\Hotel.Framework\bin\Debug\nunit.framework.dll
+C:\Project\ReposHotelBooking\Hotel.Framework\bin\Debug\log4net.xml
+C:\Project\ReposHotelBooking\Hotel.Framework\bin\Debug\nunit.framework.xml
+C:\Project\ReposHotelBooking\Hotel.Framework\obj\Debug\Hotel.Framework.csprojResolveAssemblyReference.cache
+C:\Project\ReposHotelBooking\Hotel.Framework\obj\Debug\Hotel.Framework.dll
+C:\Project\ReposHotelBooking\Hotel.Framework\obj\Debug\Hotel.Framework.pdb
