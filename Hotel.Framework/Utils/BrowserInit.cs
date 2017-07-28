@@ -95,7 +95,9 @@ namespace Hotel.Framework.Utils
                     driverPath = rootPath;
 
                     driver = new InternetExplorerDriver(rootPath,options);
-                   
+                    Console.WriteLine("rootPath##########" + rootPath);
+                    Console.WriteLine("driver##########" + driver);
+
                     screenHeight = HelperCommon.GetScreenHeight(driver);
 
                     screenWidth = HelperCommon.GetScreenWidth(driver);
@@ -106,6 +108,7 @@ namespace Hotel.Framework.Utils
 
                     String BrowserName = BrowserCollection.ie.ToString();
 
+                    Console.WriteLine("BrowserName##########" + BrowserName);
                     // Add code to add Registry in IE 11
                     String IEVersion = HelperCommon.GetIEVersion(driver, driver.FindElement(By.TagName("html")));
 
