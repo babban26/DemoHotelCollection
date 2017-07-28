@@ -50,6 +50,8 @@ namespace Hotel.Framework.Utils
 
                     HelperCommon.SetWindowSize(driver, screenWidth, screenHeight);
 
+                    iWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
+
                 }
                 else if (Convert.ToBoolean(browser.SelectBrowser(BrowserCollection.chrome.ToString(), "BrowserSelection.xml")) == true)
                 {
@@ -84,7 +86,7 @@ namespace Hotel.Framework.Utils
                 }
                 else if (Convert.ToBoolean(browser.SelectBrowser(BrowserCollection.ie.ToString(), "BrowserSelection.xml")) == true)
                 {
-                    Console.WriteLine("Inside IE#########################");
+                    
                     InternetExplorerOptions options = new InternetExplorerOptions();
                     options.EnsureCleanSession = true;
                     options.EnableNativeEvents = true;
@@ -95,9 +97,7 @@ namespace Hotel.Framework.Utils
                     driverPath = rootPath;
 
                     driver = new InternetExplorerDriver(rootPath,options);
-                    Console.WriteLine("rootPath##########" + rootPath);
-                    Console.WriteLine("driver##########" + driver);
-
+                 
                     screenHeight = HelperCommon.GetScreenHeight(driver);
 
                     screenWidth = HelperCommon.GetScreenWidth(driver);
@@ -108,12 +108,13 @@ namespace Hotel.Framework.Utils
 
                     String BrowserName = BrowserCollection.ie.ToString();
 
-                    Console.WriteLine("BrowserName##########" + BrowserName);
                     // Add code to add Registry in IE 11
                     String IEVersion = HelperCommon.GetIEVersion(driver, driver.FindElement(By.TagName("html")));
 
                     if (IEVersion.Equals("IE11"))
                         HelperCommon.CheckIE11RegistryPresence();
+
+                    iWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
 
                 }
                 else if (Convert.ToBoolean(browser.SelectBrowser(BrowserCollection.phantom.ToString(), "BrowserSelection.xml")) == true)

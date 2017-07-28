@@ -13,6 +13,7 @@ namespace Hotel.Framework.Utils
         public static void StepDefinationInitialise()
         {
             browser = new BrowserInit();
+            Console.WriteLine("############outside...");
            // browser.driver.Manage().Window.Maximize();
         }
 
