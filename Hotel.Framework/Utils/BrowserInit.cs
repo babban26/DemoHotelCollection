@@ -84,6 +84,7 @@ namespace Hotel.Framework.Utils
                 }
                 else if (Convert.ToBoolean(browser.SelectBrowser(BrowserCollection.ie.ToString(), "BrowserSelection.xml")) == true)
                 {
+                    Console.WriteLine("Inside IE#########################");
                     InternetExplorerOptions options = new InternetExplorerOptions();
                     options.EnsureCleanSession = true;
                     options.EnableNativeEvents = true;
