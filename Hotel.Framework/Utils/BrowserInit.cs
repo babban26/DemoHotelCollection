@@ -108,9 +108,9 @@ namespace Hotel.Framework.Utils
 
                     //HelperCommon.SetWindowSize(driver, screenWidth, screenHeight); //Dimension d = new Dimension(1382,744); 
 
-                   // HelperCommon.SetWindowSize(driver, 744, 1382);
+                    HelperCommon.SetWindowSize(driver, 744, 1382);
 
-                    driver.Manage().Window.Maximize();
+              //      driver.Manage().Window.Maximize();
 
                     String BrowserName = BrowserCollection.ie.ToString();
 
