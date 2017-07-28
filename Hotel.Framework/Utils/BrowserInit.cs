@@ -90,9 +90,11 @@ namespace Hotel.Framework.Utils
                     options.IgnoreZoomLevel = true;
                     options.IntroduceInstabilityByIgnoringProtectedModeSettings = true;
                     driverName = "webdriver.ie.driver";
-                    driverPath = rootPath + "/IEDriverServer.exe";
+                   // driverPath = rootPath + "/IEDriverServer.exe";
+                    driverPath = rootPath;
 
-                    driver = new InternetExplorerDriver(options);
+                    driver = new InternetExplorerDriver(rootPath,options);
+                   
                     screenHeight = HelperCommon.GetScreenHeight(driver);
 
                     screenWidth = HelperCommon.GetScreenWidth(driver);
