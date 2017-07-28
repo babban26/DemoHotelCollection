@@ -25,7 +25,7 @@ namespace Hotel.Collection.Test.Utils
 
             Navigate("https://www.thehotelcollection.co.uk/");
 
-           // HelperCommon.IsJqueryActive(browser.driver);
+            HelperCommon.IsJqueryActive(browser.driver);
         }
 
         [AfterScenario]

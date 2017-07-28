@@ -115,6 +115,7 @@ namespace Hotel.Framework.Utils
                   //      HelperCommon.CheckIE11RegistryPresence();
 
                     iWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
+                    Console.WriteLine("IE wait##############"+iWait);
 
                 }
                 else if (Convert.ToBoolean(browser.SelectBrowser(BrowserCollection.phantom.ToString(), "BrowserSelection.xml")) == true)
@@ -138,7 +139,7 @@ namespace Hotel.Framework.Utils
 
 
                 iWait = new OpenQA.Selenium.Support.UI.WebDriverWait(driver, TimeSpan.FromSeconds(60.00));
-
+                Console.WriteLine("IE wait22##############" + iWait);
             }
             catch (NoBrowserSelectedException ex)
             {
