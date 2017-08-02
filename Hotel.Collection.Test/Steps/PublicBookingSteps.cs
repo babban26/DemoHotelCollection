@@ -210,5 +210,61 @@ namespace Hotel.Collection.Test.Steps
             Objects.poHotelBooking.VerifyInlineErrors();
         }
 
+
+
+        [When(@"I enter required hotels details")]
+        public void WhenIEnterRequiredHotelsDetails()
+        {
+            Objects.poHotelBooking.SelectHotel();
+            Objects.poHotelBooking.EnterDateOfArrival();
+            Objects.poHotelBooking.SelectNumberOFNights();
+            Objects.poHotelBooking.SelectNumberOFRooms();
+            Objects.poHotelBooking.SelectNumberOFAdults();
+
+        }
+
+        [When(@"I view rooms and click on Book now")]
+        public void WhenIViewRoomsAndClickOnBookNow()
+        {
+            Objects.poHotelBooking.ClickOnViewRoom();
+            Objects.poHotelBooking.ClickSelectedRatesBookNow();
+        }
+
+        [Then(@"Verify  total Price of the selected room")]
+        public void ThenVerifyTotalPriceOfTheSelectedRoom()
+        {
+            Objects.poHotelBooking.TotalPriceExtraOptionalPage();
+        }
+
+        [When(@"I select additional option and special requirement")]
+        public void WhenISelectAdditionalOptionAndSpecialRequirement()
+        {
+            Objects.poHotelBooking.SelectAfternoonTea();
+            Objects.poHotelBooking.SeletCheckOutExtra();
+            Objects.poHotelBooking.SelectAdjacentRoom();
+        }
+
+        [Then(@"Verify all the details of selected hotel and room")]
+        public void ThenVerifyAllTheDetailsOfSelectedHotelAndRoom()
+        {
+            Objects.poHotelBooking.VerifyAllBookingDetails();
+        }
+
+
+        [When(@"I Enter Personal details")]
+        public void WhenIEnterPersonalDetails()
+        {
+            Objects.poHotelBooking.EnterEmail();
+            Objects.poHotelBooking.SelectTitle();
+            Objects.poHotelBooking.EnterFirstName();
+            Objects.poHotelBooking.EnterLastName();
+            Objects.poHotelBooking.EnterPhoneNumber();
+            Objects.poHotelBooking.EnterAddress();
+            Objects.poHotelBooking.EnterCityName();
+            Objects.poHotelBooking.SelectCountry();
+        }
+
+
+
     }
 }

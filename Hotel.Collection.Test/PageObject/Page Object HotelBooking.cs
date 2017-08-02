@@ -172,9 +172,7 @@ namespace Hotel.Collection.Test.PageObject
         #region Reusable
 
         public void GetStartDate()
-        {
-            Console.WriteLine("\n Selecting Start Date" + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
-
+        {           
             DateTime SystemDate = DateTime.Now;
 
             SelectYearInDatePicker(SystemDate.Year);
@@ -184,12 +182,8 @@ namespace Hotel.Collection.Test.PageObject
             SelectMonthInDatePicker(requiredStartMonth);
 
             date = getDate(SystemDate.Month, SystemDate.Day);
-            Console.WriteLine("Required Date :: " + date + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
-
+          
             SelectDateInDatePicker(date);
-
-            Console.WriteLine("\n Selecting Start Date completed" + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
-
 
         }
 
@@ -210,9 +204,7 @@ namespace Hotel.Collection.Test.PageObject
 
         // This will return Dictionary contains value and key of current month
         public Dictionary<int, String> getRandomMonthName(int currentMonth)
-        {
-            Console.WriteLine("\n Getting Random Month Name and Position" + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
-
+        {          
             Dictionary<int, String> monthList = new Dictionary<int, String>();
             monthList.Add(1, "January");
             monthList.Add(2, "February");
@@ -240,8 +232,6 @@ namespace Hotel.Collection.Test.PageObject
             Dictionary<int, String> monthList1 = new Dictionary<int, String>();
             monthList1.Add(monthPosition, monthList[monthPosition]);
 
-            Console.WriteLine("Random Selected Month :: " + monthList1.ElementAt(0).Value + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
-
             return monthList1;
         }
 
@@ -259,7 +249,6 @@ namespace Hotel.Collection.Test.PageObject
                 HelperCommon.IsJqueryActive(driver);
                 monthFromDatePicker = driver.FindElement(By.ClassName("ui-datepicker-month")).Text.Trim();
             }
-            Console.WriteLine("MOnth from Date Picker :: " + monthFromDatePicker + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
                
         }
 
@@ -350,7 +339,6 @@ namespace Hotel.Collection.Test.PageObject
                     {
                         if (date == Convert.ToInt32(currentColumn.FindElement(By.TagName("a")).Text.Trim()))
                         {
-                            Console.WriteLine("Date Value :: " + currentColumn.FindElement(By.TagName("a")).Text.Trim());                       
                             flag = true;
                             Thread.Sleep(1000);
                             currentColumn.Click();
