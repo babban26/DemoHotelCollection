@@ -74,9 +74,7 @@ namespace Hotel.Framework.Utils
 
                     HelperCommon.SetWindowPosition(driver, 0, 0);
 
-                    HelperCommon.SetWindowSize(driver, screenWidth, screenHeight);
-
-                    Console.WriteLine("Is Driver null :: " + (driver == null));
+                    HelperCommon.SetWindowSize(driver, screenWidth, screenHeight);                   
 
                     iWait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
 

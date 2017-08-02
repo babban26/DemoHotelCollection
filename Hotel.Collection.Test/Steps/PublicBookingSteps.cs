@@ -11,7 +11,7 @@ namespace Hotel.Collection.Test.Steps
         [Given(@"I am on homepage")]
         public void GivenIAmOnHomepage()
         {
-            Console.WriteLine("I am on Home Page");
+            Console.WriteLine("done: I am on Home Page");
         }
         
         [When(@"I select hotel name")]
