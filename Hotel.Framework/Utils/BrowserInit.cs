@@ -35,8 +35,7 @@ namespace Hotel.Framework.Utils
 
                 if (Convert.ToBoolean(browser.SelectBrowser(BrowserCollection.firefox.ToString(), "BrowserSelection.xml")) == true)
                 {
-                   // driver = new FirefoxDriver(new FirefoxBinary(@"C:\Program Files\Mozilla Firefox\firefox.exe"), new FirefoxProfile());
-
+                   
                     driver = new FirefoxDriver();
 
                     String BrowserName = BrowserCollection.firefox.ToString();
@@ -62,7 +61,7 @@ namespace Hotel.Framework.Utils
                     ChromeOptions options = new ChromeOptions();
                     options.AddArgument("--disable-extensions");
                     //System.Environment.SetEnvironmentVariable(driverName, driverPath);
-                    driver = new ChromeDriver(driverPath, options);  //driver = new ChromeDriver(baseDir + "\\DLLs");
+                    driver = new ChromeDriver(driverPath, options); 
 
                     HelperCommon.EventFire ef = new HelperCommon.EventFire(driver);
                     driver = ef;
@@ -94,11 +93,11 @@ namespace Hotel.Framework.Utils
                     options.IntroduceInstabilityByIgnoringProtectedModeSettings = true;
                     options.EnableNativeEvents=true;
                     options.IntroduceInstabilityByIgnoringProtectedModeSettings = true;
-                  options.RequireWindowFocus = false;
+                    options.RequireWindowFocus = false;
                     options.EnablePersistentHover = false;
                     
                   
-// ieCapabilities.setJavascriptEnabled(true); 
+                  // ieCapabilities.setJavascriptEnabled(true); 
 
 
                     driverName = "webdriver.ie.driver";
@@ -110,16 +109,11 @@ namespace Hotel.Framework.Utils
                     screenHeight = HelperCommon.GetScreenHeight(driver);
 
                     screenWidth = HelperCommon.GetScreenWidth(driver);
-                   
-                    Console.WriteLine("#########"+screenHeight+ " " +screenWidth);
 
                     HelperCommon.SetWindowPosition(driver, 0, 0);
 
                     HelperCommon.SetWindowSize(driver, screenWidth, screenHeight); 
 
-                //    HelperCommon.SetWindowSize(driver, 744, 1382);
-
-              //      driver.Manage().Window.Maximize();
 
                     String BrowserName = BrowserCollection.ie.ToString();
 
@@ -154,7 +148,7 @@ namespace Hotel.Framework.Utils
 
 
                 iWait = new OpenQA.Selenium.Support.UI.WebDriverWait(driver, TimeSpan.FromSeconds(60.00));
-                Console.WriteLine("IE wait22##############" + iWait);
+              
             }
             catch (NoBrowserSelectedException ex)
             {

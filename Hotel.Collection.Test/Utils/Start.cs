@@ -25,7 +25,6 @@ namespace Hotel.Collection.Test.Utils
             ob.ObjectInitialisation();
 
             Navigate("https://www.thehotelcollection.co.uk/");
-
            
           //  HelperCommon.IsJqueryActive(browser.driver);
         }
